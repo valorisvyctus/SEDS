@@ -3,6 +3,7 @@
 # ID: 2026A7PS0163H
 
 import pandas as pd
+from pathlib import Path
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
@@ -10,7 +11,8 @@ from matplotlib.animation import FuncAnimation
 # 1. Load the depth sensor data
 # ---------------------------------------------------------
 
-data = pd.read_csv("data/Depth Data.csv")
+data_path = Path(__file__).parent / "Depth Data.csv"
+data = pd.read_csv(data_path)
 
 # Convert depth values to numbers.
 # Invalid/corrupted values are converted to NaN.
