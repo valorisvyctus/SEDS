@@ -215,7 +215,7 @@ void loop() {
 
   if (currentState == STORM) {
 
-    // Blink LED every 500 ms
+    // Blink LED every 200 ms
     if (millis() - lastBlinkTime >= 200) {
 
       lastBlinkTime = millis();
