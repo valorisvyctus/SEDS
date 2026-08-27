@@ -48,7 +48,7 @@ Submission:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-The following is a brief AI overview to summarize the working and structure of both the tasks stepwise. 
+## The rest of the following below is just a brief AI overview to summarize the working and structure of both my tasks stepwise. 
 
 This repository contains my solutions for the SEDS BPHC Avionics Round 1 Induction Task, **Athena's Intern**.
 
