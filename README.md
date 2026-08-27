@@ -4,7 +4,7 @@
 
 **Name:** Chiranthan Radhakrishna
 **ID:** 2026A7PS0163H
-
+TINKERCAD LINK: https://www.tinkercad.com/things/cxNRG2F4jM8-athenatask22026a7ps0163h?sharecode=GD0Q7KLtfxShNvyQazC-eQGk31cd4UJC7fZPSyUmxEY
 This repository contains my solutions for the SEDS BPHC Avionics Round 1 Induction Task, **Athena's Intern**.
 
 The project is divided into two parts:
