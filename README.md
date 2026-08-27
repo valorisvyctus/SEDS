@@ -4,7 +4,47 @@
 
 **Name:** Chiranthan Radhakrishna
 **ID:** 2026A7PS0163H
+
 TINKERCAD LINK: https://www.tinkercad.com/things/cxNRG2F4jM8-athenatask22026a7ps0163h?sharecode=GD0Q7KLtfxShNvyQazC-eQGk31cd4UJC7fZPSyUmxEY
+
+**HOW DID I TACKLE THESE TASKS?**
+
+TASK 0:
+    
+    1] Getting Familiar with new things:
+    
+    VSCode, Git, Github, Python Libraries, Arduinos, Tinkercad, Circuit Components and how to connect these to apply them all together for an effective completion of these project tasks.
+    
+    2] Resources used:
+        
+        LLM Agents - Mainly to get started, understand the vision and principle of each step involved and to solve the tasks in an efficient way by breaking them into smaller tasks. AI was used for most of the coding structures in Arduino and the Depth Sensor Task and it guided me through the process of how and what does each particular block of code do, so that I could have a broader understanding of the underlying logic used. Also, it was very helpful to debug and organize.
+        
+        Youtube - Introduction to all the new things mentioned above. Simulations and Debugging.
+
+        Google - Search Engine for all my queries.
+
+        VSCode, Git, Github, Python Libraries, Tinkercad, etc..
+
+Task 1:
+
+    1] Usage of Python Libraries to extract data.
+    2] Filtering the Data: Here, I have used a filter system to remove non numerical data and extreme outliers from the sensor inputs. A 5 point median system has been applied to reduce the effect of a noisy data which is very effective to filter out invalid data and prevents sharp spikes in the graph for a better visualization. The principle of this system is that the sensory data input at a particular time is measured and plotted on the graph by taking the median of 5 data inputs in its surrounding( 2 on the left, 2 on the right and the data itself). 
+    3} The filtered data along with the raw sensor inputs are plotted on a time-based simulation graph using Matplotlib.
+
+Task 2:
+
+    1] Usage of Tinkercad to create an Arduino based circuit along with light, distance sensors, buzzer, LED and LCD Screen.
+    2] Coding for the display of different system states considering all the conditions and cases provided in the task description.
+    3] Debugging and Experiment Runs to check all the necessary cases. 
+
+Submission:
+
+    1] Organize everything, run final checks and prepare the Github repo.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+The following is a brief AI overview to summarize the working and structure of both the tasks stepwise. 
+
 This repository contains my solutions for the SEDS BPHC Avionics Round 1 Induction Task, **Athena's Intern**.
 
 The project is divided into two parts:
