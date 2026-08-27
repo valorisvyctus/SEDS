@@ -7,7 +7,7 @@
 
 TINKERCAD LINK: https://www.tinkercad.com/things/cxNRG2F4jM8-athenatask22026a7ps0163h?sharecode=GD0Q7KLtfxShNvyQazC-eQGk31cd4UJC7fZPSyUmxEY
 
-**HOW DID I TACKLE THESE TASKS?**
+## HOW DID I TACKLE THESE TASKS?
 
 TASK 0:
     
@@ -17,7 +17,9 @@ TASK 0:
     
     2] Resources used:
         
-        LLM Agents - Mainly to get started, understand the vision and principle of each step involved and to solve the tasks in an efficient way by breaking them into smaller tasks. AI was used for most of the coding structures in Arduino and the Depth Sensor Task and it guided me through the process of how and what does each particular block of code do, so that I could have a broader understanding of the underlying logic used. Also, it was very helpful to debug and organize.
+        LLM Agents - Mainly to get started, understand the vision and principle of each step involved and to solve the tasks in an efficient way by breaking them into smaller tasks.
+        AI was used for most of the coding structures in Arduino and the Depth Sensor Task and it guided me through the process of how and what does each particular block of code do,
+        so that I could have a broader understanding of the underlying logic used. Also, it was very helpful to debug and organize.
         
         Youtube - Introduction to all the new things mentioned above. Simulations and Debugging.
 
@@ -28,7 +30,10 @@ TASK 0:
 Task 1:
 
     1] Usage of Python Libraries to extract data.
-    2] Filtering the Data: Here, I have used a filter system to remove non numerical data and extreme outliers from the sensor inputs. A 5 point median system has been applied to reduce the effect of a noisy data which is very effective to filter out invalid data and prevents sharp spikes in the graph for a better visualization. The principle of this system is that the sensory data input at a particular time is measured and plotted on the graph by taking the median of 5 data inputs in its surrounding( 2 on the left, 2 on the right and the data itself). 
+    2] Filtering the Data: Here, I have used a filter system to remove non numerical data and extreme outliers from the sensor inputs.
+    A 5 point median system has been applied to reduce the effect of a noisy data which is very effective to filter out invalid data and prevents sharp spikes in the graph for a better visualization.
+    The principle of this system is that the sensory data input at a particular time is measured and plotted on the graph by taking the median of 5 data inputs in its surrounding
+    ( 2 on the left, 2 on the right and the data itself). 
     3} The filtered data along with the raw sensor inputs are plotted on a time-based simulation graph using Matplotlib.
 
 Task 2:
